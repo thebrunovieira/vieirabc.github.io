@@ -1,0 +1,17 @@
+<mat-toolbar id="header" class="mat-elevation-z5">
+    <h1><a (click)="scrollTo('home')">VieiraBC</a></h1>
+
+    <span class="spacer"></span>
+
+    <ul class="menu-bar" [style.top]="top">
+        <li><a (click)="scrollTo('home')">início</a></li>
+        <li><a (click)="scrollTo('about')">sobre</a></li>
+        <li><a (click)="scrollTo('portfolio')">portfolio</a></li>
+        <li><a (click)="scrollTo('contact')">contato</a></li>
+    </ul>
+
+    <button mat-fab class="open-menu" (click)="open()">
+        <i class="material-icons">{{ btn }}</i>
+    </button>
+    
+</mat-toolbar>

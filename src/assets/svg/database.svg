@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 250 250" version="1.1" viewBox="0 0 250 250" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+   <defs>
+      <style>
+         
+         * { fill: #fff; }
+
+         @keyframes move_arm { from { transform: translateY(20px) }}
+
+         .left { animation: move_arm .5s linear infinite alternate; }
+
+         .right { animation: move_arm .5s linear infinite alternate .25s; }
+
+         @keyframes move_head { from { transform: translateY(5px); }}
+
+         #head { animation: move_head .5s linear infinite alternate .25s; }
+
+         @keyframes move_body {
+            from { transform: rotate(-10deg); }
+            to { transform: rotate(10deg); }
+         }
+
+         #body {
+            transform-origin: center;
+            animation: move_body .5s linear infinite alternate;
+         }
+
+      </style>
+   </defs><g fill="#f5f5f5">
+
+   
+
+   
+   
+<path id="top" d="m125 44.669c-35.774 0-66.942 10.456-66.942 23.35s31.168 23.343 66.942 23.343c35.781 0 66.942-10.456 66.942-23.343 0-12.893-31.162-23.35-66.942-23.35z"/><path id="mid" d="m125 104.75c-20.123 0-50.796-3.5011-66.942-15.102v16.334c0 12.893 31.168 23.343 66.942 23.343 35.781 0 66.942-10.456 66.942-23.343v-16.334c-16.187 11.635-46.893 15.102-66.942 15.102z"/><path id="bottom" d="m125 142.71c-20.123 0-50.796-3.5011-66.942-15.102v16.294c0 12.893 31.168 23.343 66.942 23.343 35.781 0 66.942-10.456 66.942-23.343v-16.294c-16.187 11.635-46.893 15.102-66.942 15.102z"/><path id="base" d="m191.94 165.53v16.454c0 12.886-31.162 23.343-66.942 23.343-35.774 0-66.942-10.456-66.942-23.343v-16.454c16.187 11.635 46.893 15.102 66.942 15.102 20.123 0 50.796-3.5011 66.942-15.102z"/></g></svg>
