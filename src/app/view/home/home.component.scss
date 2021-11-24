@@ -74,6 +74,8 @@
         width: 100px;
         margin-top: 25px;
 
+        cursor: pointer;
+
         animation: appear-arrow .5s ease-in-out 2s backwards;
     }
     @keyframes appear-arrow {

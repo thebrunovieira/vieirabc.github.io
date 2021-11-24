@@ -19,7 +19,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
   declarations: [
     HomeComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
   ],
   imports: [
     CommonModule,

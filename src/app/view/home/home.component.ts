@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from 'src/app/scroll.service';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit {
     next: 'Ilustrador e Desenvolvedor Front-End.'
   }
 
-  constructor() { }
+  constructor( private _scrollService: ScrollService ) { }
 
   ngOnInit(): void {
     setTimeout(()=>{this.write()}, 2000)
@@ -29,4 +30,7 @@ export class HomeComponent implements OnInit {
     })
   }
 
+  scrollTo(element: string)  {
+    this._scrollService.movingTo(element);
+  }
 }
